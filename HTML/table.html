@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Tables in HTML</h3>
+    <table border="black">
+        <caption>Food menu</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Items</th>
+                <th colspan="2">price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mazza</td>
+                <td>40</td>
+                <td>0.50</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>30</td>
+                <td>0.40</td>
+            </tr>
+            <tr>
+                <td>chips</td>
+                <td>90</td>
+                <td>1.10</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+    <table border="black">
+        <caption>Madical Report</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Waight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Male</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <hr>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search on google" name="q">
+        <button>Search</button>
+    </form>
+    <hr>
+    <hr>
+    <h2>Registation form</h2>
+    <form>
+        <div>
+            <input type="text" name="fname" placeholder="Frist name">
+            <input type="text" name="Lname" placeholder="Last name">
+        </div>
+        <div>
+            <label for="gender"> select yout gender</label>
+            <select name="gender" id="gender">
+                <option value="m">male</option>
+                <option value="f">female</option>
+                <option value="o">others</option>
+            </select>
+        </div>
+        <div>
+            Do you agrewe to all terma of services?
+            <input type="checkbox" id="tos_agree" name="tos_agree">
+            <label for="tos_agree">Yes, I agree</label>
+        </div>
+        <button>Register</button>
+    </form>
+    <hr>
+    <hr>
+    <table border="black">
+        <caption>Student Infomation</caption>
+       
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+       
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        
+    </table>
+    <hr>
+    <hr>
+    <form>
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your Name"/>
+        <br>
+    </div>
+    <div>
+        <lable for="gender" >Sex:</lable>
+        <input type="radio" name="m">
+        <label for="m">Male</label>
+        <input type="radio" name="f">
+        <label for="f">Female</label>
+        <br>
+    </div>
+    <div>
+        <lable for="country">Country:</lable>
+        <select name="country">
+            <option value="">select your country</option>
+            <option value="">India </option>
+            <option value="">America</option>
+            <option value="">england</option>
+            <option value="">Austrilia</option>
+        </select><br>
+    </div>
+    <div>
+        <lable>massege:</lable><br>
+        <textarea></textarea>
+    </div>
+    <div>
+        <input type="checkbox" name="sub">
+        <lable>Subscribe?</lable>
+    </div>
+    <input type="submit" >
+    </form>
+    <hr>
+    <hr>
+    <h2>Feadback form</h2>
+    <form action="">
+        <lable for="">Name:</lable>
+        <input type="text" name="name" placeholder="Write your name"/><br>
+        <lable for="">Email:</lable>
+        <input type="email" name="email" placeholder="Write your email"/><br>
+        <lable for="">Massege:</lable><br>
+        <textarea name="massege"></textarea><br>
+        <lable for="rate">Rate us our of 5:</lable><br>
+        <input type="radio" name="rate"/>
+        <lable for="rate">1</lable><br>
+        <input type="radio" name="rate"/>
+        <lable for="rate">2</lable><br>
+        <input type="radio" name="rate"/>
+        <lable for="rate">3</lable><br>
+        <input type="radio" name="rate"/>
+        <lable for="rate">4</lable><br>
+        <input type="radio" name="rate"/>
+        <lable for="rate">5</lable><br>
+        <button>Send your massege</button>
+    </form>
+</body>
+</html>

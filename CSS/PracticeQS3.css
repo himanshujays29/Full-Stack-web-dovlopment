@@ -1,0 +1,25 @@
+.container {
+    height: 400px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.red, .yellow, .green {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 25px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}

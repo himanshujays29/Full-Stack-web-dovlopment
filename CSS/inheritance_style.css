@@ -1,0 +1,15 @@
+div {
+    background: wheat;
+}
+
+/* form {
+    background-color: hotpink;
+} */
+
+input, button {
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+}
