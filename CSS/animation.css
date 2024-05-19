@@ -1,0 +1,46 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    border: 2px solid hotpink;
+    text-align: center;
+}
+
+.ani {
+    height: 400px;
+    width: 400px;
+    background: azure;
+    border:2px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    animation: image 20s linear 1s infinite  normal ;
+}
+
+@keyframes image {
+     0%{
+        background: url("/image/cantrol.jpg");
+    }
+
+    20%{
+        background: url("/image/chair.jpg");
+    }
+
+    40%{
+        background: url("/image/gift.jpg");
+    }
+
+    60%{
+        background: url("/image/pc.jpg");
+    }
+
+    80%{
+        background: url("/image/shose.jpg");
+    }
+
+    100%{
+        background: url("/image/taddy.jpg");
+    }
+
+
+}

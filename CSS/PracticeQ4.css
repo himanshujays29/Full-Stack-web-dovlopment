@@ -1,0 +1,81 @@
+#box1{
+height: 100px;
+width: 100px;
+background: green;
+transition: 2s ease-in 0.5s;
+}
+
+#box1:hover{
+    width: 600px;
+}
+
+#box2{
+height: 100px;
+width: 100px;
+background: red;
+transform: rotate(90deg) translateX(200px) translateY(-200px);
+}
+
+#box3{
+height: 100px;
+width: 100px;
+background: lightblue;
+transform: skewX(20deg);
+}
+
+#box4{
+height: 100px;
+width: 100px;
+background: lightgreen;
+box-shadow: 2px 2px 5px green;
+}
+
+#mypic{
+height: 200px;
+width: 200px;
+background: palevioletred;
+background: url('/image/taddy.jpg');
+background-size: cover;
+opacity: 50%;
+}
+
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: grey;
+    font-size: 50px;
+}
+
+.navbar {
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.option {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-bottom: 5px;
+    line-height: 50px;
+}

@@ -1,0 +1,38 @@
+.face{
+    height: 400px;
+    width: 400px;
+    background-color: #ff9d00;
+    border-radius: 50%;
+    box-shadow: 7px 7px 10px #5f4105;
+    transition: 0.8s;
+}
+.face:hover{
+    box-shadow: 10px 10px 15px #5f4105;
+}
+
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-radius: 0px 0px 50px 50px;
+    position: absolute;
+    top: 260px;
+    left: 100px;
+}
+
+
+
+.left ,.right{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.right{
+    left: 250px;
+}

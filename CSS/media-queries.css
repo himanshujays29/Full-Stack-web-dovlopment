@@ -1,0 +1,15 @@
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@media(orientation: landscape){
+    .box{
+        background-color:deeppink;
+        border: 2px solid rgb(0, 255, 26);
+        border-radius: 20px;
+    }
+} 
